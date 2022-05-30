@@ -1,0 +1,104 @@
+* {
+    border: 1px solid red;
+    margin: 0;
+    padding: 0;
+}
+html {
+    scroll-behavior: smooth;
+    font-size: 62.5%;
+    font-family: 'Rubik', sans-serif;
+
+}
+
+/**************************************
+LAYOUT
+**************************************/
+body {
+    display: grid;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    place-items: center;
+}
+.topContainer {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    min-height: 40rem;
+    width: 55%;
+}
+main {
+    max-width: 42rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* grid-auto-rows: 25rem; */
+    grid-auto-columns: 10rem;
+    gap: 3rem;
+}
+.containter {
+    display: flex;
+    position: relative;
+}
+.card {
+    /* position: absolute; */
+    width: ;
+}
+.daily {
+    /* position:absolute */
+}
+.weekly {
+    /* position:absolute */
+}
+.monthly {
+    /* position:absolute */
+}
+.heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.heading img {
+    width: 1rem;
+    justify-self: end;
+}
+
+/*************************************
+ADDITIONAL STYLES HEADER
+*************************************/
+header {
+
+}
+nav {
+
+}
+
+/*************************************
+ADDITIONAL STYLES MAIN
+*************************************/
+.card {
+    padding: 1rem;
+    background: hsl(235, 46%, 20%);
+    color: white;
+}
+.activityImg {
+    width: 4rem;
+    height: 4rem;
+}
+.heading {
+    margin-bottom: 2rem;
+}
+.card p {
+    margin-bottom: 1.5rem;
+    font-size: 3rem;
+}
+.card span {
+    color: hsl(236, 100%, 87%);
+}
+.daily {
+    z-index: 3;
+}
+.weekly {
+    z-index: 2;
+}
+.monthly {
+    z-index: 1;
+}
