@@ -151,10 +151,10 @@ ADDITIONAL STYLES MAIN
     color: hsl(236, 100%, 87%);
 }
 .daily {
-    z-index: 3;
+    z-index: 2;
 }
 .weekly {
-    z-index: 2;
+    z-index: 1;
 }
 .monthly {
     z-index: 1;
@@ -196,8 +196,8 @@ ADDITIONAL STYLES FOR FOOTER
 /********************************************
 STYLES FOR SCREEN SIZE 1300px
 ********************************************/
-@media screen and ( max-width: 1300px) {
+/* @media screen and ( max-width: 1300px) {
     .topContainer {
-        /* width: minmax(60%, auto ); */
+        width: minmax(60%, auto );
     }
-}
+} */
