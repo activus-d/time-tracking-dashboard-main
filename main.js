@@ -13,6 +13,8 @@ nav.addEventListener( 'click', event => {
     if( target.matches( 'a' ) ) {
         let showTimeCard = new ShowTimeCard( daily, weekly, monthly )
         showTimeCard.increaseIndex( target )
+    }else {
+        return
     }
 } )
 
