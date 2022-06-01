@@ -27,8 +27,8 @@ Users should be able to:
 ![](./images/screencapture.png)
 
 ### Links
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/activus-d/time-tracking-dashboard-main](https://github.com/activus-d/time-tracking-dashboard-main)
+- Live Site URL: [https://activus-d.github.io/time-tracking-dashboard-main/](https://activus-d.github.io/time-tracking-dashboard-main/)
 
 ## My process
 
