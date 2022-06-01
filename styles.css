@@ -96,6 +96,7 @@ nav {
 a {
     text-decoration: none;
     color: hsl(235, 45%, 61%);
+    font-size: 1.6rem;
 }
 a:hover {
     color: white;
@@ -154,10 +155,11 @@ ADDITIONAL STYLES MAIN
 }
 .time span {
     color: hsl(236, 100%, 87%);
+    font-size: 1.6rem;
 }
 h2 {
     font-weight: 400;
-    font-size: 1.4rem;
+    font-size: 1.8rem;
 }
 .daily {
     z-index: 2;
