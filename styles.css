@@ -30,7 +30,7 @@ body {
     grid-template-columns: 1fr 3fr;
     gap: 2rem;
     min-height: 34rem;
-    width: minmax(50%, auto );
+    width: minmax(54% auto );
 }
 header {
     display: grid;
@@ -155,7 +155,7 @@ ADDITIONAL STYLES MAIN
 }
 .time span {
     color: hsl(236, 100%, 87%);
-    font-size: 1.6rem;
+    font-size: 1.2rem;
 }
 h2 {
     font-weight: 400;
